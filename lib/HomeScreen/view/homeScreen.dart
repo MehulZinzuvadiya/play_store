@@ -36,7 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(14),
               border: Border.all(
-                color: Colors.black54,
+                color: Colors.white,
               ),
               boxShadow: [
                 BoxShadow(
@@ -89,7 +89,7 @@ class _HomeScreenState extends State<HomeScreen> {
         body: Column(
           children: [
             Container(
-              height: 600,
+              height: 670,
               width: double.infinity,
               child: TabBarView(
                 children: [
